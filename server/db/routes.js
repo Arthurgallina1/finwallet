@@ -91,7 +91,7 @@ async function loadMySQL(){
     const connection = await mysql.createConnection({
         host: process.env.DB_PASS,
         port: '3306',
-        user: procces.env.DB_USER,
+        user: proccess.env.DB_USER,
         password: process.env.DB_PASS,
         database: 'finwallet'
     });
